@@ -6,3 +6,20 @@
 #   Juvenil A	        11 a 14
 #   Juvenil B	        15 a 18
 #   Senior	            Acima de 18
+
+idade = int(input('\nQuantos anos você tem? '))
+
+if idade < 5:
+    cat = 'NA'
+elif idade <= 7:
+    cat = 'Infantil A'
+elif idade <= 10:
+    cat = 'Infantil B'
+elif idade <= 14:
+    cat = 'Juvenil A'
+elif idade <= 18:
+    cat = 'Juvenil B'
+else: 
+    cat = 'Senior'
+
+print(f'\nCategoria: {cat}')
