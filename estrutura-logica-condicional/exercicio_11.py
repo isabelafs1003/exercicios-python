@@ -3,3 +3,11 @@
 # Ter pelo menos 65 anos de idade.
 # Ou ter trabalhado pelo menos 30 anos.
 # Ou ter pelo menos 60 anos de idade e ter trabalhado pelo menos 25 anos.
+
+idade = int(input('\nInforme sua idade: '))
+tempo = int(input('Informe seu tempo de serviço: '))
+
+if idade >= 65 or tempo >= 30 or (idade >= 60 and tempo >= 25):
+    print('\nPoderá se aposentar!')
+else:
+    print('\nNão poderá se aposentar!')
